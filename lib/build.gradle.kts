@@ -1,6 +1,7 @@
 plugins {
     `java-library`
     `maven-publish`
+    id("com.github.bjornvester.xjc") version "1.8.2"
 }
 
 group = "dk.mortenm"
@@ -18,7 +19,17 @@ repositories {
     mavenCentral()
 }
 
+xjc {
+    xsdDir.set(layout.projectDirectory.dir("src/main/resources/schemas"))
+    includes.addAll("*.xsd", "Version1.2/*.xsd")
+    excludes.add("MeMo_core.xsd")
+    bindingFiles.setFrom(fileTree("src/main/resources/schemas") { include("*.xjb", "Version1.2/*.xjb") })
+    outputJavaDir.set(layout.buildDirectory.dir("generated/sources/xjc/java/main"))
+}
+
 dependencies {
+    implementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.2")
+    runtimeOnly("com.sun.xml.bind:jaxb-impl:4.0.5")
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
