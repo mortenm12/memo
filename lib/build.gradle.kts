@@ -4,7 +4,7 @@ plugins {
     id("com.github.bjornvester.xjc") version "1.8.2"
 }
 
-group = "dk.mortenm"
+group = "dk.tinker"
 version = "1.0.0"
 
 java {

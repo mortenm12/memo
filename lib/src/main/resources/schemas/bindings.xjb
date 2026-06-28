@@ -6,55 +6,55 @@
 
     <jaxb:bindings schemaLocation="Version1.2/MeMo_core.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.memo"/>
+            <jaxb:package name="dk.tinker.memo.model.memo"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_dataTypes.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.datatypes"/>
+            <jaxb:package name="dk.tinker.memo.model.datatypes"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_dmv.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.dmv"/>
+            <jaxb:package name="dk.tinker.memo.model.dmv"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_form.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.form"/>
+            <jaxb:package name="dk.tinker.memo.model.form"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_gln.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.gln"/>
+            <jaxb:package name="dk.tinker.memo.model.gln"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_grd.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.grd"/>
+            <jaxb:package name="dk.tinker.memo.model.grd"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_kle.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.kle"/>
+            <jaxb:package name="dk.tinker.memo.model.kle"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_sor.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.sor"/>
+            <jaxb:package name="dk.tinker.memo.model.sor"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 
     <jaxb:bindings schemaLocation="MeMo_udd.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="dk.mortenm.memo.model.udd"/>
+            <jaxb:package name="dk.tinker.memo.model.udd"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 

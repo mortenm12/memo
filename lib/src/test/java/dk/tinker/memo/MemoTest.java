@@ -1,4 +1,4 @@
-package dk.mortenm.memo;
+package dk.tinker.memo;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

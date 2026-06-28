@@ -1,4 +1,4 @@
-package dk.mortenm.memo;
+package dk.tinker.memo;
 
 import java.util.ArrayList;
 import java.util.Collections;
