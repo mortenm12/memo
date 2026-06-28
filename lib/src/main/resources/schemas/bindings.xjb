@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxb:bindings version="3.0"
+               xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb"
+               xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <jaxb:bindings schemaLocation="Version1.2/MeMo_core.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.memo"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_dataTypes.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.datatypes"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_dmv.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.dmv"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_form.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.form"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_gln.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.gln"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_grd.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.grd"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_kle.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.kle"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_sor.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.sor"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="MeMo_udd.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="dk.tinker.memo.model.udd"/>
+        </jaxb:schemaBindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>
