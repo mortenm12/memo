@@ -2,11 +2,11 @@ name: Build and Publish
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     tags:
       - 'v*'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
         run: ./gradlew :lib:build
 
       - name: Publish to GitHub Packages
-        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/v'))
         run: ./gradlew :lib:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
