@@ -42,6 +42,7 @@ tasks.test {
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
+            artifactId = "memo"
             from(components["java"])
 
             pom {
